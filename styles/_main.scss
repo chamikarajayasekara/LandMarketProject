@@ -1,0 +1,55 @@
+
+
+.bg-1 {
+  /* The image used */
+  background-image: url("https://i.ibb.co/NnwR43K/ac2.jpg");
+  /* Full height */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-2 {
+  /* The image used */
+  background-image: url("https://i.ibb.co/fvLf5Cp/272334708-2807590296201311-2213611266222509429-n.jpg");
+  /* Full height */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-3 {
+  /* The image used */
+  background-image: url("https://i.ibb.co/Xkcb30P/273224047-2820155668278107-4661690944806227666-n.jpg");
+  /* Full height */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-4{
+  /* The image used */
+  background-image: url("https://i.ibb.co/zhxnb9R/ac1.jpg");
+  /* Full height */
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.image-container-footer {
+
+  width:40%;
+  margin-left: 10px;
+  > div {
+    position: unset !important;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+}

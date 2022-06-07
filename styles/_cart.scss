@@ -1,0 +1,150 @@
+.drawer-header{
+  //background-color:$themePrimary;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 60px;
+  min-width: 420px;
+  @media #{$mobile}  {
+    min-width: 300px;
+  }
+}
+.drawer-body{
+  max-height: 450px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  @media #{$mobile}  {
+    width: 320px;
+  }
+}
+.drawer-box{
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  width: 450px;
+  position: relative;
+  @media #{$mobile}  {
+    width: 300px;
+  }
+}
+.cart-head{
+  font-family: "Poppins", sans-serif;
+  font-size:20px;
+  font-weight: 600;
+  color: black;
+  line-height: 2rem;
+}
+
+.cart-head-2{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #343333;
+
+}
+.cart{
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-right: 25px;
+}
+.cart-label{
+  background-color: #343333;
+  width: 20px;
+  height: 20px;
+  color: #FFFFFF;
+
+}
+.cart-img{
+  width: 35%;
+}
+.cart-details{
+  width: 40%;
+}
+.cart-price{
+  width: 25%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #343333;
+}
+.cart-remove-item{
+  position: relative;
+  border: 1px #eaeaea solid;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  transition: transform .2s;
+}
+.cart-remove-item:hover{
+  transform: scale(1.1);
+}
+.plus-button{
+  position: relative;
+  border-left: 1px #eaeaea solid;
+  height: 30px;
+  overflow: hidden;
+  transition: transform .2s;
+}
+
+.minus-button{
+  position: relative;
+  border-left: 1px #eaeaea solid;
+  height: 30px;
+  overflow: hidden;
+  transition: transform .2s;
+}
+
+.single-cart-item{
+  box-shadow: 0 1px 0 0 #eaeaea  ;
+}
+.cart-quantity-changer{
+  width: 80%;
+  border: 1px  #eaeaea solid;
+  height: 30px;
+  margin-right: 10px;
+}
+.close-icon-box{
+  width: 15%;
+  //background-color: #30d270;
+}
+.cart-line-1{
+
+}
+.cart-item-quantity{
+  width: 70%;
+}
+.quantity-increment-btn{
+  width: 15%;
+}
+.quantity-decrement-btn{
+  width: 15%;
+}
+.drawer-footer {
+  position:absolute;
+  width:100%;
+  bottom:12px;
+}
+.cart-footer-left{
+  width: 30%;
+}
+.cart-footer-right{
+  width: 70%;
+}
+.checkout-btn{
+  background-color: #08243D;
+  color: #FFFFFF;
+  font-family: $Poppins;
+  width: 400px;
+  height: 50px;
+  cursor: pointer;
+}
+.emptycart_div{
+  position: relative;
+}
+.personal-tab{
+  @media #{$mobile}  {
+    width: 90%;
+    margin: 0 auto;
+  }
+  width: 100%;
+  margin: 0 auto;
+}

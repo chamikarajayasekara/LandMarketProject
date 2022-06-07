@@ -1,0 +1,25 @@
+.increment-btn{
+  width: 30px;
+  height: 30px;
+  border: 3px solid $themePrimary;
+  cursor: pointer;
+}
+.decrement-btn{
+  width: 30px;
+  height: 30px;
+  border: 3px solid $themePrimary;
+  cursor: pointer;
+}
+.inc-btn-icon{
+  color: $themePrimary;
+
+}
+.qty{
+  font-family: $Poppins;
+  font-size: 18px;
+  color: $themeThird;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: 20px;
+}
